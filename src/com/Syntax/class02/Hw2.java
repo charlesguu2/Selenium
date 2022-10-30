@@ -11,7 +11,7 @@ public class Hw2 {
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
         driver.findElement(By.linkText("Create new account")).click();
-
+        Thread.sleep(2000);
         driver.findElement(By.name("firstname")).sendKeys("Jessie");
         driver.findElement(By.name("lastname")).sendKeys("White");
         driver.findElement(By.name("reg_email__")).sendKeys("jessieWhite230@gmail.com");
@@ -20,8 +20,7 @@ public class Hw2 {
         driver.findElement(By.name("birthday_month")).sendKeys("September");
         driver.findElement(By.name("birthday_day")).sendKeys("24");
         driver.findElement(By.name("birthday_year")).sendKeys("2000");
-        driver.findElement(By.name("sex")).sendKeys("Male");
-        Thread.sleep(2000);
+        driver.findElement(By.name("sex")).click();
         driver.findElement(By.linkText("Sign Up")).click();
 
 
