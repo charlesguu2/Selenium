@@ -3,7 +3,7 @@ package com.Syntax.class02;
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class WebDriver {
+public class WebOrders {
     public static void main(String[] args) {
         System.setProperty("webdriver.edge.driver", "Drivers/msedgedriver.exe");
         org.openqa.selenium.WebDriver driver = new EdgeDriver();
