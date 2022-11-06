@@ -10,7 +10,7 @@ import java.util.List;
 public class checkBoxDemo2 {
     public static void main(String[] args) {
         //set the path to the driver to link it with our class    on mac u dont need .exe on windows u need .exe
-        System.setProperty("webdriver.chrome.driver", "Drivers/msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "Drivers/msedgedriver.exe");
         WebDriver driver = new EdgeDriver();
         driver.get("http://syntaxprojects.com/basic-checkbox-demo.php");
         driver.manage().window().fullscreen();
