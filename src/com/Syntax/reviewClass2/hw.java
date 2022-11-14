@@ -1,4 +1,4 @@
-package reviewClass2;
+package com.Syntax.reviewClass2;
 
 public class hw {
 
